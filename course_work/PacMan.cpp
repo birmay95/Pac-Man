@@ -225,7 +225,6 @@ void PacMan::interactionWithGhost(Ghost& ghost)
             if(countKillingGhosts == 0)
                 countKillingGhosts = 1;
             score += countKillingGhosts * 100;
-            std::cout << "oaoaoaoa" << std::endl;
         }
         Ghost::restartPursuitTime();
     }
