@@ -1,0 +1,6 @@
+D:/Sem_3/cmake-build-debug/CMakeFiles/lab56.dir
+D:/Sem_3/cmake-build-debug/CMakeFiles/lab7.dir
+D:/Sem_3/cmake-build-debug/CMakeFiles/course_work.dir
+D:/Sem_3/cmake-build-debug/CMakeFiles/lab8.dir
+D:/Sem_3/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Sem_3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
