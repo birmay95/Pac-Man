@@ -41,116 +41,6 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/Sem_3/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target lab56
-
-
-#############################################
-# Order-only phony target for lab56
-
-build cmake_object_order_depends_target_lab56: phony || CMakeFiles/lab56.dir
-
-build CMakeFiles/lab56.dir/lab56/ExceptionLab56.cpp.obj: CXX_COMPILER__lab56_unscanned_Debug D$:/Sem_3/lab56/ExceptionLab56.cpp || cmake_object_order_depends_target_lab56
-  DEP_FILE = CMakeFiles\lab56.dir\lab56\ExceptionLab56.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\lab56.dir
-  OBJECT_FILE_DIR = CMakeFiles\lab56.dir\lab56
-
-build CMakeFiles/lab56.dir/lab56/Tourist.cpp.obj: CXX_COMPILER__lab56_unscanned_Debug D$:/Sem_3/lab56/Tourist.cpp || cmake_object_order_depends_target_lab56
-  DEP_FILE = CMakeFiles\lab56.dir\lab56\Tourist.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\lab56.dir
-  OBJECT_FILE_DIR = CMakeFiles\lab56.dir\lab56
-
-build CMakeFiles/lab56.dir/lab56/functionsLab56.cpp.obj: CXX_COMPILER__lab56_unscanned_Debug D$:/Sem_3/lab56/functionsLab56.cpp || cmake_object_order_depends_target_lab56
-  DEP_FILE = CMakeFiles\lab56.dir\lab56\functionsLab56.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\lab56.dir
-  OBJECT_FILE_DIR = CMakeFiles\lab56.dir\lab56
-
-build CMakeFiles/lab56.dir/lab56/mainLab56.cpp.obj: CXX_COMPILER__lab56_unscanned_Debug D$:/Sem_3/lab56/mainLab56.cpp || cmake_object_order_depends_target_lab56
-  DEP_FILE = CMakeFiles\lab56.dir\lab56\mainLab56.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\lab56.dir
-  OBJECT_FILE_DIR = CMakeFiles\lab56.dir\lab56
-
-build CMakeFiles/lab56.dir/lab56/Enterpreneur.cpp.obj: CXX_COMPILER__lab56_unscanned_Debug D$:/Sem_3/lab56/Enterpreneur.cpp || cmake_object_order_depends_target_lab56
-  DEP_FILE = CMakeFiles\lab56.dir\lab56\Enterpreneur.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\lab56.dir
-  OBJECT_FILE_DIR = CMakeFiles\lab56.dir\lab56
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target lab56
-
-
-#############################################
-# Link the executable lab56.exe
-
-build lab56.exe: CXX_EXECUTABLE_LINKER__lab56_Debug CMakeFiles/lab56.dir/lab56/ExceptionLab56.cpp.obj CMakeFiles/lab56.dir/lab56/Tourist.cpp.obj CMakeFiles/lab56.dir/lab56/functionsLab56.cpp.obj CMakeFiles/lab56.dir/lab56/mainLab56.cpp.obj CMakeFiles/lab56.dir/lab56/Enterpreneur.cpp.obj
-  FLAGS = -g
-  LINK_FLAGS = -static -static-libgcc
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\lab56.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = lab56.exe
-  TARGET_IMPLIB = liblab56.dll.a
-  TARGET_PDB = lab56.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target lab7
-
-
-#############################################
-# Order-only phony target for lab7
-
-build cmake_object_order_depends_target_lab7: phony || CMakeFiles/lab7.dir
-
-build CMakeFiles/lab7.dir/lab7/mainLab7.cpp.obj: CXX_COMPILER__lab7_unscanned_Debug D$:/Sem_3/lab7/mainLab7.cpp || cmake_object_order_depends_target_lab7
-  DEP_FILE = CMakeFiles\lab7.dir\lab7\mainLab7.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\lab7.dir
-  OBJECT_FILE_DIR = CMakeFiles\lab7.dir\lab7
-
-build CMakeFiles/lab7.dir/lab7/functionsLab7.cpp.obj: CXX_COMPILER__lab7_unscanned_Debug D$:/Sem_3/lab7/functionsLab7.cpp || cmake_object_order_depends_target_lab7
-  DEP_FILE = CMakeFiles\lab7.dir\lab7\functionsLab7.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\lab7.dir
-  OBJECT_FILE_DIR = CMakeFiles\lab7.dir\lab7
-
-build CMakeFiles/lab7.dir/lab7/Algorithm.cpp.obj: CXX_COMPILER__lab7_unscanned_Debug D$:/Sem_3/lab7/Algorithm.cpp || cmake_object_order_depends_target_lab7
-  DEP_FILE = CMakeFiles\lab7.dir\lab7\Algorithm.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\lab7.dir
-  OBJECT_FILE_DIR = CMakeFiles\lab7.dir\lab7
-
-build CMakeFiles/lab7.dir/lab7/ExceptionLab7.cpp.obj: CXX_COMPILER__lab7_unscanned_Debug D$:/Sem_3/lab7/ExceptionLab7.cpp || cmake_object_order_depends_target_lab7
-  DEP_FILE = CMakeFiles\lab7.dir\lab7\ExceptionLab7.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\lab7.dir
-  OBJECT_FILE_DIR = CMakeFiles\lab7.dir\lab7
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target lab7
-
-
-#############################################
-# Link the executable lab7.exe
-
-build lab7.exe: CXX_EXECUTABLE_LINKER__lab7_Debug CMakeFiles/lab7.dir/lab7/mainLab7.cpp.obj CMakeFiles/lab7.dir/lab7/functionsLab7.cpp.obj CMakeFiles/lab7.dir/lab7/Algorithm.cpp.obj CMakeFiles/lab7.dir/lab7/ExceptionLab7.cpp.obj
-  FLAGS = -g
-  LINK_FLAGS = -static -static-libgcc
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\lab7.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = lab7.exe
-  TARGET_IMPLIB = liblab7.dll.a
-  TARGET_PDB = lab7.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target course_work
 
 
@@ -266,52 +156,6 @@ build course_work.exe: CXX_EXECUTABLE_LINKER__course_work_Debug CMakeFiles/cours
   TARGET_IMPLIB = libcourse_work.dll.a
   TARGET_PDB = course_work.exe.dbg
 
-# =============================================================================
-# Object build statements for EXECUTABLE target lab8
-
-
-#############################################
-# Order-only phony target for lab8
-
-build cmake_object_order_depends_target_lab8: phony || CMakeFiles/lab8.dir
-
-build CMakeFiles/lab8.dir/lab8/Algorithm.cpp.obj: CXX_COMPILER__lab8_unscanned_Debug D$:/Sem_3/lab8/Algorithm.cpp || cmake_object_order_depends_target_lab8
-  DEP_FILE = CMakeFiles\lab8.dir\lab8\Algorithm.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\lab8.dir
-  OBJECT_FILE_DIR = CMakeFiles\lab8.dir\lab8
-
-build CMakeFiles/lab8.dir/lab8/mainLab8.cpp.obj: CXX_COMPILER__lab8_unscanned_Debug D$:/Sem_3/lab8/mainLab8.cpp || cmake_object_order_depends_target_lab8
-  DEP_FILE = CMakeFiles\lab8.dir\lab8\mainLab8.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\lab8.dir
-  OBJECT_FILE_DIR = CMakeFiles\lab8.dir\lab8
-
-build CMakeFiles/lab8.dir/lab8/functionsLab8.cpp.obj: CXX_COMPILER__lab8_unscanned_Debug D$:/Sem_3/lab8/functionsLab8.cpp || cmake_object_order_depends_target_lab8
-  DEP_FILE = CMakeFiles\lab8.dir\lab8\functionsLab8.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\lab8.dir
-  OBJECT_FILE_DIR = CMakeFiles\lab8.dir\lab8
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target lab8
-
-
-#############################################
-# Link the executable lab8.exe
-
-build lab8.exe: CXX_EXECUTABLE_LINKER__lab8_Debug CMakeFiles/lab8.dir/lab8/Algorithm.cpp.obj CMakeFiles/lab8.dir/lab8/mainLab8.cpp.obj CMakeFiles/lab8.dir/lab8/functionsLab8.cpp.obj
-  FLAGS = -g
-  LINK_FLAGS = -static -static-libgcc
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\lab8.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = lab8.exe
-  TARGET_IMPLIB = liblab8.dll.a
-  TARGET_PDB = lab8.exe.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -340,12 +184,6 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build course_work: phony course_work.exe
 
-build lab56: phony lab56.exe
-
-build lab7: phony lab7.exe
-
-build lab8: phony lab8.exe
-
 # =============================================================================
 # Folder targets.
 
@@ -354,7 +192,7 @@ build lab8: phony lab8.exe
 #############################################
 # Folder: D:/Sem_3/cmake-build-debug
 
-build all: phony lab56.exe lab7.exe course_work.exe lab8.exe
+build all: phony course_work.exe
 
 # =============================================================================
 # Built-in targets

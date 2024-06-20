@@ -215,13 +215,17 @@ void PacMan::interactionWithGhost(Ghost& ghost)
             energizer = false;
             Ghost::setUnPower(false);
             energizerMusic.pause();
+            countKillingGhosts = 0;
         }
         else if(ghost.getHealth() && (((coord.x - ghost.getCoord().x) < 0.5) && ((coord.x - ghost.getCoord().x) > -0.5)) && (((coord.y - ghost.getCoord().y) < 0.5) && (coord.y - ghost.getCoord().y) > -0.5))
         {
             killingGhostSound.play();
             ghost.setHealth();
             countKillingGhosts *= 2;
+            if(countKillingGhosts == 0)
+                countKillingGhosts = 1;
             score += countKillingGhosts * 100;
+            std::cout << "oaoaoaoa" << std::endl;
         }
         Ghost::restartPursuitTime();
     }

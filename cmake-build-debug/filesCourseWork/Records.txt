@@ -1,9 +1,3 @@
-Mihail 6100
-mishail 3200
-mnnj 2180
-kfadlhjsgh 1960
-Alexey 650
-Maxim 580
-jfhv 580
-qwe 180
-rty 180
+user1 6750
+user2 3080
+user3 2060
